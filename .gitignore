@@ -1,0 +1,37 @@
+# --- Binaries and Executables ---
+# Compiled files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Main project binary (standard naming)
+bin/
+out/
+dist/
+
+# --- Go Specific ---
+# If you use vendoring, uncomment the next line
+# vendor/
+
+# Go tool coverage output
+*.out
+*.prof
+
+# --- GoLand / IntelliJ ---
+# Covers GoLand's project-specific settings
+.idea/
+*.iml
+cmake-build-*/
+out/
+
+# --- Environment and Secrets ---
+# Keep your API keys and local configs private
+.env
+.env.local
+*.secret
+
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db
